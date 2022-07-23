@@ -1,0 +1,147 @@
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body p a{
+	text-decoration:none;
+	
+}
+.navigation{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+	background-color:#6fa4cf;
+    background: linear-gradient(-169deg, #0575e6 0%, #00558f 100%);
+}
+
+.icon{
+    width: 400px;
+    float: left;
+    margin-top:-35px;
+}
+.logo{
+	width:400px;
+    color: white;
+    font-size: 25px;
+	font-family:'josefin sans',sans-serif;
+    padding-left: 10px;
+
+    padding-top: 50px;
+    margin-top: 1px;
+	
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: #ff7200;
+}
+.content{
+	font-family:'poppins';
+	width:100%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.contenta{
+	width:35%;
+	color:#091921;
+	text-align:justify;
+    margin:5px auto;
+	margin-top:-200px;
+	margin-right:-90px;
+	margin-left:300px;
+}
+.contentb{
+	
+	width:20%;
+	color:black;
+	
+	margin:5px auto;
+	padding:2px;
+}
+.c1{
+	text-align:center;
+	border:2px solid #74b9ff;
+	font-size:21px;
+	padding:10px;
+	margin-top:60px;
+	background-color:#dfe6e9;
+}
+.c1:hover{
+	transform: scale(1.0);
+        border-color:#74b9ff;
+        box-shadow: 0 0 10px #74b9ff;
+}
+.c2{
+	margin-top:-10px;
+	padding:10px;
+	border:2px solid #74b9ff;
+	
+	background-color:#dfe6e9;
+
+}
+.c2:hover{
+	transform: scale(1.0);
+        border-color: #74b9ff;
+        box-shadow: 0 0 10px #74b9ff;
+}
+footer{
+	margin:90px;
+}
+
+.contentb .c2 h1{
+	font-size:30px;
+}
+#footer a{
+	text-decoration:none;
+}
+#footer{
+	font-size:20px;
+	
+}
+.footer1{
+	padding:10px;
+	margin-top:-105px;
+	margin-left:260px;
+}
+
+.footer2{
+	
+	padding:10px;
+	margin-left:490px;
+	margin-top:-105px;
+}
+.logoimage{
+	margin-left:750px;
+	margin-top:80px;
+	
+}
+.lastpara{
+	background-color:#dfe6e9;
+}
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Lobster&family=Ubuntu&display=swap');
